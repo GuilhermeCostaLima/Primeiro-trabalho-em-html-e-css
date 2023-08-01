@@ -1,0 +1,127 @@
+.vi_image{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(img/wallcity.jpg) no-repeat;
+    background-size: cover; 
+   
+}
+.titulo {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    border: 15px magenta double;
+    background-color: rgba(128, 0, 128, 0.466);
+    border-radius: 100px;
+    color: white;
+    font-size: 300%;
+    /* border: 2px black solid; */
+}
+.container > div{
+    border: 15px brown ridge;
+}
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template: 
+        'serviço1 serviço2'
+        'serviço3 serviço4'
+        'serviço5 serviço5';
+    }
+.serviço1{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(230, 174, 102, 0.87);
+    text-align: justify;
+    padding: 10px;
+    
+}
+.serviço2{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(230, 174, 102, 0.87);
+    text-align: justify;
+    padding: 10px;
+}
+.serviço3{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(230, 174, 102, 0.87);
+    text-align: justify;
+    padding: 10px;
+}
+.serviço4{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(230, 174, 102, 0.87);
+    text-align: justify;
+    padding: 10px;
+
+}
+.serviço5{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(230, 174, 102, 0.87);
+    text-align: justify;
+    padding: 10px;
+
+}
+.detalhe5{
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #dd6824;
+    color: #f0e7e7;
+    text-align: center;
+    width: 110px;
+    float:left;
+    
+
+
+}
+.home{
+    font-size: 14px;
+    background: white;
+    border-radius: 60%;
+    width: 40px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    bottom: -150px;
+    float: left;  
+    justify-content: center; 
+    text-decoration: none;   
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: magenta;
+}
+.home:hover{
+    background-color: green;
+}
+/* .anterior{
+    font-size: 11px;
+    background: white;
+    border-radius: 60%;
+    width: 40px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    bottom: -19px;
+    right: 40px;
+    float: left;   
+    justify-content: center;
+} */

@@ -1,0 +1,130 @@
+.bg_image{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(img/wallmine.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.titulo {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    border-radius: 90px;
+    border: 10px magenta double;
+    background-color: rgba(128, 0, 128, 0.466);
+    color: white;
+    font-size: 300%;
+    
+    /* border: 2px black solid; */
+}
+
+.recursos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+    border: 10px brown double;
+    margin: 15px;
+    margin-left:120px;
+    margin-right:120px;
+    text-decoration: none;
+    
+    
+}
+.texto1{
+    border: 15px rgb(129, 60, 3) ridge;
+    margin: 15px;
+    margin-left:120px;
+    margin-right:120px;
+    background-color: burlywood;
+    text-align: justify;
+    padding: 15px;
+    
+}
+.serviço1 {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    border: 5px red solid;
+    margin-left: 400px;
+    margin-top: 250px;
+    padding: 200px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: magenta;
+}
+.voltar:hover{
+    background-color: green;
+    
+}
+.serviço2{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    border: 5px red solid;
+    margin-left: 1050px;
+    /* margin-top: 100px; */
+    width: 400px;
+    height: 200px;
+    padding: 100px;
+    padding-left: 100px;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+
+}
+.serviço3{
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    border: 5px red solid;
+    margin-left: 400px;
+    /* margin-top: 100px; */
+    padding: 100px;
+    width: 410px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: center;
+    text-decoration: none;
+   
+}
+
+a{
+    text-decoration: none;
+    
+}
+.voltar{
+    font-size: 15px;
+    background: white;
+    border-radius: 60%;
+    width: 90px;
+    height:90px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    bottom: -400px;
+    float: left;  
+    margin: auto;
+    
+}
+audio {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+
+

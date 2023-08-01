@@ -1,0 +1,108 @@
+.bg_image{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(img/fundograma2.jpg) no-repeat;
+    background-size: cover; 
+}
+h1{
+    
+    text-align: center;
+    font-size: 300%;
+    border: 15px magenta double;
+    border-radius: 90px;
+    background-color: rgba(128, 0, 128, 0.466);
+    color: white;
+    margin: -1px;
+}
+.container > img{
+    
+    /* width: 1000px;
+    float: left; */
+    width: 50%;
+    float: left;
+    margin-right: 20px;   
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+/* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-template: 
+    'img1 descmap'
+    'cont';
+} */
+.descmapa{
+    background-color: rgba(128, 0, 128, 0.589);
+    border:13px black ridge;
+    font-size: 200%;
+    width: 750px;
+    float: left;
+    color: violet;
+    margin-top: auto;
+    margin-left: 100px;
+    text-align: justify;
+    justify-content: center;
+    padding: 11px;
+}
+
+.cont{
+    float: right;
+    font-size: 171%;
+    border: 13px black ridge;
+    background-color: rgba(255, 255, 255, 0.593);
+    float: left;
+    margin-left: 100px;
+    padding: 11px;
+    
+}
+
+.anterior{
+    font-size: 15px;
+    background: white;
+    border-radius: 60%;
+    width: 40px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    bottom: -200px;
+    right: 0px;
+    float: left;   
+    justify-content: center;
+    
+}
+.social{
+    float: left;    
+}
+
+a:hover{
+    color: green;
+}
+
+
+/* .audio-player {
+    width: 200px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+  } */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+  

@@ -1,0 +1,75 @@
+.bg_image{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(img/villafarms.jpg) no-repeat;
+    background-size: cover; 
+}
+h1{
+    text-align: center;
+    border-radius: 90px;
+    border: 15px magenta double;
+    background-color: rgba(128, 0, 128, 0.466);
+    color: white;
+    font-size: 300%;
+    margin: -1px;
+}
+.container > div{
+    border: black;
+    
+}
+.container{
+    /* background-color: yellow; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    grid-template: 
+    'cliente1 img1'
+    'img2 cliente2'
+    'cliente3 img3'
+    'cliente4 img4';
+}
+.container > article{
+    background-color: rgba(233, 150, 122, 0.795);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    height: 150px;
+    border: 20px darkgoldenrod ridge;
+    border-radius: 25px;
+    padding: 2px;
+}
+.container > img{
+    height: 180px;
+    margin: auto;
+}
+
+.anterior{
+    font-size: 15px;
+    background: white;
+    border-radius: 60%;
+    width: 40px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    position: relative;
+    bottom: -100px;
+    right: 0px;
+    float: left;   
+    justify-content: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.anterior:hover{
+    background-color: green;
+}
